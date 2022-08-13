@@ -1,0 +1,7 @@
+f= open("archivoNuevo.txt","x") 
+f.close()
+f=open("archivoNuevo.txt", "a")
+f.write("elemento1\n")
+f.write("elemento2\n") 
+f.write("elemento3\n")
+f.close()
