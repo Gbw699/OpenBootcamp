@@ -1,20 +1,10 @@
-from curses import window
-import opcode
-import tkinter
-from tkinter import E, W, ttk
-from tkinter.tix import COLUMN
-
-window=tkinter.Tk()
-
-
-opciones=tkinter.StringVar()
-
-r1=tkinter.Radiobutton(window, text="si", value="1", variable=opciones)
-r2=tkinter.Radiobutton(window, text="no", value="2", variable=opciones)
-r3=tkinter.Radiobutton(window, text="sino", value="3", variable=opciones)
-
-r1.grid(column=0, row=0, sticky=tkinter.W, padx=5, pady=5)
-r2.grid(column=0, row=1, sticky=tkinter.W, padx=5, pady=5)
-r3.grid(column=0, row=2, sticky=tkinter.W, padx=5, pady=5)
-
-window.mainloop()
+from tkinter import *
+master = Tk()
+elemento = StringVar()
+listbox = Listbox(master)
+for item in ["Pepe", "María", "Ernesto", "Ruben", "Carlos", "Laura", "Ana", "Lorena"]:
+ listbox.insert(END, item)
+listbox.pack()
+label = Label(text="Lista de nombres de personas")
+label.pack()
+master.mainloop()
