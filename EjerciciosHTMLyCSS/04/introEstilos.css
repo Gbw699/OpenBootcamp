@@ -1,0 +1,40 @@
+/*estilos para colores */
+.colores {
+    color: indigo;
+}
+.colores-hexadecimal {
+    color: #6B9080;
+}
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+/*transparencia - a=alpha*/
+.color-rgba {
+    color: rgba(50, 200, 68, 0.2);
+}
+.fondo {
+    background-color: aqua;
+    background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/06/Seamless-Polygon-Background.jpg");
+    background-position: center;
+}
+.fondo-interno {
+    background-image: url(Imagenes/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg);
+    background-position: bottom;
+}
+.ancho {
+    background-color: chocolate;
+    width: 130px;
+}
+.alto {
+    background-color: blueviolet;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}

@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+/* comentario */
+p {
+    color: blue;
+    font-size: 16pt;
+}
+#primera-noticia {
+    color: greenyellow;
+    font-size: medium;
+}
+#segunda-noticia {
+    color: crimson;
+}
+.encabezado {
+    font-size: x-large;
+    text-transform: uppercase;
+}
+*.warning {
+    color: red;
+}
+#fecha {
+    text-decoration: underline;
+}
