@@ -1,0 +1,42 @@
+div {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+    /* se posiciona en relacion al posicionamiento original */
+}
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: opx;
+    background-color: greenyellow;
+    z-index: 10;
+    /* posicionamiento fijo, en relación a la pantalla */
+}
+.relative-contender {
+    position: relative;
+    width: 350px;
+    height: 800px;
+    background-color: crimson;
+    margin-left: 50px;
+    /* padre del div con posicionamiento absoluto */
+}
+.absolute {
+    position: absolute;
+    top: 0px;
+    /* posicionamiento absoluto con respecto a un padre */ 
+}
+.sticky {
+    position: sticky;
+    background-color: darkgoldenrod;
+    color: white;
+    top: 0px;
+    z-index: 2;
+    /* posicionamiento que pega la etiqueta a la pantalla y 
+    modifica su posicionamiento con el scroll*/
+}
