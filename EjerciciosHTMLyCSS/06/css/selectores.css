@@ -1,0 +1,10 @@
+.main p {
+    background-color: aqua;
+    width: fit-content;
+}
+.main button {
+    background-color: deeppink;
+}
+p {
+    color: brown;
+}
