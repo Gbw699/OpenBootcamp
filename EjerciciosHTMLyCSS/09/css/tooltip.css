@@ -1,0 +1,46 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.tooltip-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px aqua;
+    background-color: aquamarine;
+    position: relative;
+}
+.tooltip {
+    padding: 5px 10px;
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: -60px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    opacity: 0%;
+}
+.tooltip::before {
+    content: "";
+    border: solid 10px transparent;
+    border-top-color: darkseagreen;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+}
+.tooltip-btn:hover {
+    opacity: 0.75;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.tooltip-btn:hover .tooltip {
+    opacity: 100%;
+}
