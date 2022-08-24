@@ -1,0 +1,16 @@
+.col-sm {
+    background-color: aqua;
+    margin: 0.5rem;
+}
+.col-md {
+    background-color: blanchedalmond;
+    margin: 0.5rem;
+}
+.col-lg {
+    background-color: darkorange;
+    margin: 0.5rem;
+}
+.col-xl {
+    background-color: lightslategray;
+    margin: 0.5rem;
+}
