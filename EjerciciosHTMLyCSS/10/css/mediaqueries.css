@@ -1,0 +1,17 @@
+.titulo {
+    color: brown;
+}
+.parrafo {
+    color: brown;
+}
+
+@media (min-width:500px) and (min-height:500px) {
+    .titulo {
+        color: yellow;
+    }
+}
+@media (min-width:700px), (min-height:700px) {
+    .parrafo {
+        color: yellow;
+    }
+}

@@ -1,0 +1,25 @@
+:root {
+    --color--principal: rgb(236, 233, 47); 
+    --ancho-principal: 45rem
+}
+
+.titulo {
+    padding: 1rem;
+    background-color: brown;
+    color: var(--color--principal);
+    width: var(--ancho-principal);
+}
+.parrafo {
+    margin-left: 4rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    width: 35rem;
+}
+.pie{
+    padding: 1rem;
+    background-color: chocolate;
+    color: var(--color--principal);
+    width: var(--ancho-principal);
+    font-size: 1.5rem;
+}

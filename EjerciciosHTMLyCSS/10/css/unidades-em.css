@@ -1,0 +1,17 @@
+* {
+    font-size: 25pt;
+}
+.escenario {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid ;
+    font-size: 10pt;
+}
+.em {
+    font-size: 2em;
+    /* Toma el tamaño de letra de su padre */
+}
+.rem {
+    font-size: 2rem;
+    /* Toma el tamaño de letra base, de raiz */
+}

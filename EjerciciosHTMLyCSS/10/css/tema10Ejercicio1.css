@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    background-color: burlywood;
+    flex-direction: row-reverse;
+    padding: 0.5rem;
+    gap: 1rem;
+    height: 95vh;
+}
+.principal {
+    flex-grow: 1;
+    border: 1px solid;
+}
+#barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width:640px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    #barra {
+        flex-direction: row;
+    }
+}
