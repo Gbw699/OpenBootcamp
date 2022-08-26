@@ -1,0 +1,18 @@
+//componentes
+@use "SASS/componentes";
+
+//mixins
+@use "SASS/mixins";
+
+//En el caso de tener dos variables con el mismo nombre en los dos "imports", lo que permite el "use" es poder especificar que variable se queire usar. Ej: "import" = $color. Ej: "use" = mixins.$color (Dart Sass)
+
+p {
+    @include textos
+}
+
+h1 {
+    &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}

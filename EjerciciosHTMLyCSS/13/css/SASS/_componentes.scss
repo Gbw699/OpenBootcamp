@@ -1,0 +1,11 @@
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: rgb(107, 218, 252);
+    border: none;
+    border-radius: 1rem
+}
+
+.btn2 {
+    @extend .btn;
+    margin: 2rem;
+}

@@ -1,0 +1,23 @@
+.btn, .btn2 {
+  padding: 0.5rem 1rem;
+  background-color: rgb(107, 218, 252);
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn2 {
+  margin: 2rem;
+}
+
+p {
+  background-color: burlywood;
+  color: brown;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  margin: 2rem 3rem;
+}
+
+h1:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
