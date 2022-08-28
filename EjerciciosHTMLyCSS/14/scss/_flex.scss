@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    .container1 {
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #0000003d;
+    }
+
+    .container2 {
+        margin: 5rem 8rem;
+        display: flex;
+        flex: 1 1 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .jumbotron1 {
+            padding: 0 2rem;
+            display: flex;
+            flex-direction: column;
+
+            .title-h1 {
+                margin: 1rem 8rem 1rem 0;
+
+                .p {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .image {
+            max-width: 7rem;
+            border-radius: 0.5rem;
+            border: 2px solid rgb(172, 168, 168);
+            box-shadow: 0 0 10px;
+        }
+    }
+
+    .separator {
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        .separator-p {
+            justify-self: center;
+            align-self: center;
+        }
+    }
+
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 5rem;
+        flex-direction: row;
+
+        .sections {
+            display: flex;
+            flex-direction: column;
+            padding: 0rem 2rem;
+
+            .section1 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .section2 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .section3 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .bi::before {
+                margin: 0 1rem;
+            }
+        }
+
+        .image {
+            max-width: 25rem;
+        }
+    }
+}
