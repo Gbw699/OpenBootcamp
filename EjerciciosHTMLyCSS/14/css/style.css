@@ -17,6 +17,9 @@
   text-align: center;
 }
 
+.container1 {
+  background-color: white;
+}
 .container1 .coinbase {
   color: #0075FF;
   font-weight: 600;
@@ -31,13 +34,14 @@
 }
 .container1 .nav li {
   list-style: none;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0.5rem;
 }
 .container1 .nav li:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.85;
+  text-decoration: underline;
 }
 .container1 .botones .main-btn {
   margin: 0.2rem;
@@ -232,6 +236,7 @@
 body {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 body .container1 {
   padding: 0.5rem 1rem;
