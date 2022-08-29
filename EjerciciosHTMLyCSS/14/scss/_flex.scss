@@ -132,6 +132,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
         .icon {
             display: flex;
             flex-direction: column;
@@ -143,6 +144,7 @@ body {
     .container7 {
         display: flex;
         justify-content: space-between;
+
         .jumbotron {
             align-self: center;
             display: flex;
@@ -150,6 +152,6 @@ body {
             justify-content: center;
             align-items: flex-start;
         }
-        
+
     }
 }
