@@ -41,6 +41,18 @@
     color: $main-color;
 }
 
+@mixin h3-mixin {
+    font-weight: bold;
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+@mixin p-mixin {
+    color: #0000007e;
+    margin-bottom: 1.5rem;
+}
+
+
 //variables//
 $main-color: #0075FF;
 
@@ -48,10 +60,13 @@ $main-color: #0075FF;
 .separator {
     font-weight: bold;
     margin: 3rem 0;
+    text-align: center;
+
     .separator-p {
         color: #0000007e;
         margin-top: 0.5rem;
         margin-left: 0.5rem;
+        text-align: center;
     }
 }
 
@@ -160,10 +175,108 @@ $main-color: #0075FF;
     .bi::before {
         @include icons-mixin();
     }
+
     .section-h5 {
         font-weight: 800;
+
         .p {
             color: #0000007e;
+        }
+    }
+}
+
+
+//componetes del cuarto container//
+.container4 {
+
+    .card {
+        width: 30vw;
+        border: none;
+
+
+        .bi::before {
+            font-size: 4rem;
+            color: $main-color;
+        }
+
+        .card-h3 {
+            @include h3-mixin();
+        }
+
+        .card-p {
+            @include p-mixin()
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: $main-color;
+            margin: 5rem 0;
+            text-align: center;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+//componentes del quinto container//
+.container5 {
+    background-color: $main-color;
+    color: white;
+    padding: 2.5rem;
+
+    .datos {
+        font-weight: 800;
+        font-size: 2.5rem;
+        margin: 0;
+
+        .datos-p {
+            font-weight: 200;
+            margin: 0;
+        }
+    }
+}
+
+//componentes del sexto container//
+.container6 {
+    margin: 0 7rem;
+
+    .bi {
+        font-size: 4rem;
+        color: $main-color;
+    }
+
+    hr {
+        border: 1px solid;
+        width: 10vw;
+    }
+}
+
+//componentes del septimo container//
+.container7 {
+    background-color: #F5F8FF;
+    margin-top: 3rem;
+
+    .jumbotron {
+        @include h3-mixin();
+        margin-left: 4rem;
+        padding-right: 5rem;
+
+        .jumbotron-p {
+            @include p-mixin();
+            margin-top: 1rem;
+        }
+
+        .main-btn {
+            @include botones-mixin()
+        }
+    }
+
+    .img {
+        img {
+            max-height: 15rem;
+            margin-bottom: 5rem;
         }
     }
 }

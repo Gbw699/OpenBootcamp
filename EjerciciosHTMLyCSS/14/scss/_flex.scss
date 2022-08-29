@@ -45,6 +45,7 @@ body {
         align-self: center;
         display: flex;
         flex-direction: column;
+
         .separator-p {
             justify-self: center;
             align-self: center;
@@ -86,5 +87,69 @@ body {
         .image {
             max-width: 25rem;
         }
+    }
+
+    .container4 {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .card-p {
+                text-align: center;
+            }
+        }
+
+        .card2 {
+            .card-p {
+                margin-bottom: 0rem;
+            }
+
+        }
+    }
+
+    .container5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .datos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .container6 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .container7 {
+        display: flex;
+        justify-content: space-between;
+        .jumbotron {
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        
     }
 }

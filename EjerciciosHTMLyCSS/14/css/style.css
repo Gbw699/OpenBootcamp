@@ -8,11 +8,13 @@
 .separator {
   font-weight: bold;
   margin: 3rem 0;
+  text-align: center;
 }
 .separator .separator-p {
   color: rgba(0, 0, 0, 0.4941176471);
   margin-top: 0.5rem;
   margin-left: 0.5rem;
+  text-align: center;
 }
 
 .container1 .coinbase {
@@ -138,6 +140,95 @@
   color: rgba(0, 0, 0, 0.4941176471);
 }
 
+.container4 .card {
+  width: 30vw;
+  border: none;
+}
+.container4 .card .bi::before {
+  font-size: 4rem;
+  color: #0075FF;
+}
+.container4 .card .card-h3 {
+  font-weight: bold;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+}
+.container4 .card .card-p {
+  color: rgba(0, 0, 0, 0.4941176471);
+  margin-bottom: 1.5rem;
+}
+.container4 .card .card-link {
+  text-decoration: none;
+  color: #0075FF;
+  margin: 5rem 0;
+  text-align: center;
+}
+.container4 .card .card-link:hover {
+  opacity: 0.7;
+}
+
+.container5 {
+  background-color: #0075FF;
+  color: white;
+  padding: 2.5rem;
+}
+.container5 .datos {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 0;
+}
+.container5 .datos .datos-p {
+  font-weight: 200;
+  margin: 0;
+}
+
+.container6 {
+  margin: 0 7rem;
+}
+.container6 .bi {
+  font-size: 4rem;
+  color: #0075FF;
+}
+.container6 hr {
+  border: 1px solid;
+  width: 10vw;
+}
+
+.container7 {
+  background-color: #F5F8FF;
+  margin-top: 3rem;
+}
+.container7 .jumbotron {
+  font-weight: bold;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  padding-right: 5rem;
+}
+.container7 .jumbotron .jumbotron-p {
+  color: rgba(0, 0, 0, 0.4941176471);
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+.container7 .jumbotron .main-btn {
+  margin: 0.2rem;
+  padding: 0.4rem 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: #0075FF;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.container7 .jumbotron .main-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.container7 .img img {
+  max-height: 15rem;
+  margin-bottom: 5rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -213,6 +304,58 @@ body .container3 .sections .bi::before {
 }
 body .container3 .image {
   max-width: 25rem;
+}
+body .container4 {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+body .container4 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container4 .card .card-p {
+  text-align: center;
+}
+body .container4 .card2 .card-p {
+  margin-bottom: 0rem;
+}
+body .container5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .container5 .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .container6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .container6 .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .container7 {
+  display: flex;
+  justify-content: space-between;
+}
+body .container7 .jumbotron {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */
