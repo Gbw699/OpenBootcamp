@@ -1,0 +1,18 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de Javascript con Node",
+  "main": "index.js",
+  "scripts": {
+    "tema1Ejercicio1": "node tema1Ejercicio1",
+    "start": "node index.js",
+    "saludar": "Node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "first-project"
+  ],
+  "author": "Gabriel Barimboim",
+  "license": "ISC"
+}
