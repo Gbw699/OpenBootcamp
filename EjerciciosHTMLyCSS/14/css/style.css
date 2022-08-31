@@ -244,6 +244,23 @@ body .container1 {
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2392156863);
 }
+@media (max-width: 843px) {
+  body .container1 {
+    display: flex;
+  }
+  body .container1 .nav {
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .container1 .botones {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
 body .container2 {
   margin: 5rem 8rem;
   display: flex;
@@ -259,6 +276,11 @@ body .container2 .jumbotron1 {
 }
 body .container2 .jumbotron1 .title-h1 {
   margin: 1rem 8rem 1rem 0;
+}
+@media (max-width: 768px) {
+  body .container2 .jumbotron1 .title-h1 {
+    margin: 0;
+  }
 }
 body .container2 .jumbotron1 .title-h1 .p {
   margin-top: 1rem;
@@ -278,6 +300,13 @@ body .separator {
 body .separator .separator-p {
   justify-self: center;
   align-self: center;
+}
+@media (max-width: 768px) {
+  body .separator {
+    font-size: 1.5rem;
+    padding: 0 3rem;
+    margin: 1rem 0;
+  }
 }
 body .container3 {
   display: flex;
@@ -309,6 +338,11 @@ body .container3 .sections .bi::before {
 body .container3 .image {
   max-width: 25rem;
 }
+@media (max-width: 768px) {
+  body .container3 {
+    padding: 0;
+  }
+}
 body .container4 {
   padding: 0 1rem;
   display: flex;
@@ -328,6 +362,22 @@ body .container4 .card .card-p {
 body .container4 .card2 .card-p {
   margin-bottom: 0rem;
 }
+@media (max-width: 768px) {
+  body .container4 {
+    flex-direction: column;
+    padding: 0;
+  }
+  body .container4 .card {
+    width: 80%;
+    margin: auto;
+  }
+  body .container4 .card .bi::before {
+    font-size: 6rem;
+  }
+  body .container4 .card .card-link {
+    margin-top: 1rem;
+  }
+}
 body .container5 {
   display: flex;
   justify-content: space-around;
@@ -339,6 +389,15 @@ body .container5 .datos {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  body .container5 {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+  body .container5 .datos {
+    margin: 1rem;
+  }
+}
 body .container6 {
   display: flex;
   justify-content: space-around;
@@ -349,6 +408,15 @@ body .container6 .icon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  body .container6 {
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+  body .container6 hr {
+    width: 70%;
+  }
 }
 body .container7 {
   display: flex;

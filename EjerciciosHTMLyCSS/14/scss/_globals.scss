@@ -8,6 +8,24 @@ body {
         justify-content: space-around;
         align-items: center;
         border-bottom: 1px solid #0000003d;
+
+        @media (max-width: 843px) {
+            display: flex;
+
+            .nav {
+                margin-left: 3rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .botones {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                align-items: center;
+                justify-content: center;
+            }
+        }
     }
 
     .container2 {
@@ -25,6 +43,10 @@ body {
 
             .title-h1 {
                 margin: 1rem 8rem 1rem 0;
+
+                @media (max-width: 768px) {
+                    margin: 0;
+                }
 
                 .p {
                     margin-top: 1rem;
@@ -49,6 +71,13 @@ body {
         .separator-p {
             justify-self: center;
             align-self: center;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.5rem;
+            padding: 0 3rem;
+            margin: 1rem 0;
+
         }
     }
 
@@ -87,6 +116,10 @@ body {
         .image {
             max-width: 25rem;
         }
+
+        @media (max-width: 768px) {
+            padding: 0;
+        }
     }
 
     .container4 {
@@ -113,6 +146,24 @@ body {
             }
 
         }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            padding: 0;
+
+            .card {
+                width: 80%;
+                margin: auto;
+
+                .bi::before {
+                    font-size: 6rem;
+                }
+
+                .card-link {
+                    margin-top: 1rem;
+                }
+            }
+        }
     }
 
     .container5 {
@@ -126,6 +177,15 @@ body {
             justify-content: center;
             align-items: center;
         }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            margin: 1rem 0;
+
+            .datos {
+                margin: 1rem;
+            }
+        }
     }
 
     .container6 {
@@ -138,6 +198,15 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            margin: 0 2rem;
+
+            hr {
+                width: 70%;
+            }
         }
     }
 
@@ -155,4 +224,3 @@ body {
 
     }
 }
-
