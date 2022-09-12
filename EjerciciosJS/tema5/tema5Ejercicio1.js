@@ -16,5 +16,5 @@ let peso_redondeado = peso_kilo.toFixed() - 1;
 console.log(peso_redondeado);
 
 //última variable
-let max = ("Number.MAX_VALUE + 1" == Number.MAX_VALUE);
+let max = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
 console.log(max);
