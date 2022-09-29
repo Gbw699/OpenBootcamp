@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.seccion {
+    background-color: peru;
+    padding: 1rem;
+    margin: 2rem;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.parrafo {
+    padding: 0.5rem;
+    background-color: antiquewhite;
+}
+.modify {
+    opacity: 0.6;
+}
+img {
+    max-width: 30vw;
+    margin: 0 2rem;
+    align-self: center;
+}
